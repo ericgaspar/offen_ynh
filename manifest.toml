@@ -75,7 +75,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "mariadb-server"
+    packages = "postgresql"
 
     [resources.database]
-    type = "mysql"
+    type = "postgresql"
