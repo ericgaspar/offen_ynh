@@ -11,8 +11,7 @@ source /usr/share/yunohost/helpers
 # INITIALIZE AND STORE SETTINGS
 #=================================================
 
-foo="bar"
-ynh_app_setting_set --key=foo --value=$foo
+key=$(ynh_string_random --length=64)
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
