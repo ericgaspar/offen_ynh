@@ -15,8 +15,7 @@ maintainers = ["johndoe"]
 license = "Apache-2.0"
 website = "https://www.offen.dev"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://docs.offen.dev/running-offen/?utm_campaign=get-started"
 code = "https://some.forge.com/example/example"
 
 [integration]
