@@ -9,14 +9,14 @@ description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce
 
 version = "1.4.2~ynh1"
 
-maintainers = ["johndoe"]
+maintainers = ["eric_G"]
 
 [upstream]
 license = "Apache-2.0"
 website = "https://www.offen.dev"
 demo = "https://demo.example.com"
 admindoc = "https://docs.offen.dev/running-offen/?utm_campaign=get-started"
-code = "https://some.forge.com/example/example"
+code = "https://github.com/offen/offen"
 
 [integration]
 yunohost = ">= 12.1.17"
@@ -67,8 +67,6 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
-
-    [resources.data_dir]
 
     [resources.permissions]
     main.url = "/"
